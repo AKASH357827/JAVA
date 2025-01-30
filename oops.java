@@ -15,7 +15,7 @@ class student{
     }
     student(String name){
         this.name=name;
-        System.out.println();
+        
     }
     student(int roll){
         this.roll=roll;

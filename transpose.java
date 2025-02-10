@@ -17,6 +17,6 @@ public class transpose {
     }
     public static void main(String[] args) {
         int a[][] = {{1, 2, 3}, {21, 22, 23}}; 
-        transpose(a); 
+        transpose(a[2][3]); 
     }
 }

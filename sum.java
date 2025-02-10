@@ -8,7 +8,7 @@ public  class sum{
     return n;
     }
     public static void main(String[] args) {
-        int n=10;
+        int n=15;
         sums(n);
         System.out.println(sums(n));
     }

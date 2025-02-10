@@ -5,8 +5,9 @@ public class print{
             System.out.println(""+n);
         return;
        }
-       System.out.println(""+i);
        printdec(i+1);
+       System.out.println(""+i);
+      
     }
     public static void main(String[]args){
         int i=1;

@@ -1,17 +1,17 @@
 public class occu{
-    public static void   occur(int a[],int key,int i) {
+    public static int occur(int a[],int key,int i) {
         if(a[i]==a.length){
-            return;
+            return -1;
         }
         if(a[i]==key){
-            System.out.println(i);
+            return i;
         }
-        occur(a,key,i+1);
-        
+       return  occur(a,key,i+1);
+    
     }
     public static void main(String[]args){
     int a[]={2,4,6,3,6,7,74,3,5,3,5,6,2};
-    occur(a,4,0);
+    System.out.println(occur(a,3,0));
     }
     
 }

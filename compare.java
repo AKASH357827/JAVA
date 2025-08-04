@@ -1,4 +1,4 @@
-public class compare{
+public class comapre{
     public static void main(String[]args){
         String s1="apple";
         String s2="orange";
